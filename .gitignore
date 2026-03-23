@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+datasets/
+*.h5
+*.pth
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large Model files (over 100MB)
+*.h5
+*.pth
+*.pkl
+*.weights
+
+# Datasets
+data/
+datasets/

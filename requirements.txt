@@ -1,7 +1,8 @@
 flask
 flask-cors
-deepface
+gunicorn
 numpy<2.0.0
 tensorflow-cpu==2.15.0
 tf-keras
-gunicorn
+deepface
+opencv-python-headless

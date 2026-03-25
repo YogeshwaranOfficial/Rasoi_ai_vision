@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import numpy as np
-from .utils import decode_base64_to_cv2
-from .detector import FaceAnalyzer
-from .config import HOST, PORT
+from utils import decode_base64_to_cv2
+from detector import FaceAnalyzer
+from config import HOST, PORT
 
 app = Flask(__name__)
 CORS(app) 
